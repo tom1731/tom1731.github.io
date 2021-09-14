@@ -2,4 +2,16 @@
     color: white;
     font-size: 20px;
     margin-bottom: 0px;
-    }
+}
+
+.card-link a {
+    text-decoration: none;
+}
+
+.card {
+    width: 20rem;
+}
+
+.kaggle {
+    width: 38px;
+}
