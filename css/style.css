@@ -16,13 +16,9 @@
     width: 38px;
 }
 
-.background {
-    background-color: #000022;
+.banner {
     background-image: url("../images/banner.jpg");
     background-attachment: fixed;
-}
-
-.banner {
     background-size: cover;
     background-position: center;
     padding: 50px;
@@ -30,9 +26,16 @@
 }
 
 .banner h1 {
-margin: 0;
-color: white;
-text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-font-size: 64px;
-font-weight: bold;
+    margin: 0;
+    color: white;
+    text-shadow: 1px 1px 10px rgb(0, 0, 0);
+    font-size: 64px;
+    font-weight: bold;
 }
+
+@media (min-width: 576px) {
+    .navbar_center {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }}
