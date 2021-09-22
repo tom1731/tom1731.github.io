@@ -20,8 +20,12 @@ body {
     width: 38px;
 }
 
-.logo {
+.logo_128 {
     width: 128px;
+}
+
+.logo_32 {
+    width: 32px;
 }
 
 .banner {
@@ -68,4 +72,8 @@ body {
     font-size: 24px;
     color: #f0f9ff;
     background-color: #282d32
+}
+
+.footer {
+    font-size: 24px;
 }
