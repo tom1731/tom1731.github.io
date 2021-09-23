@@ -90,6 +90,8 @@ body {
 
 .skills_container {
     position: relative;
+    padding-block: 16px;
+    padding-inline: 48px;
     margin: auto;
     max-width: 1000px;
     margin-top: 0px;
